@@ -1,0 +1,217 @@
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    classes = {
+    };
+    objectVersion = 56;
+    objects = {
+
+/* Begin PBXBuildFile section */
+        111111111111111111111111 /* HelloWorldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444444444444444444444444 /* HelloWorldApp.swift */; };
+        222222222222222222222222 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 666666666666666666666666 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+        333333333333333333333333 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+        444444444444444444444444 /* HelloWorldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldApp.swift; sourceTree = "<group>"; };
+        555555555555555555555555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+        666666666666666666666666 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+        777777777777777777777777 = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+        888888888888888888888888 = {
+            isa = PBXGroup;
+            children = (
+                999999999999999999999999,
+                AAAAAAAAAAAAAAAAAAAAAAAA,
+            );
+            sourceTree = "<group>";
+        };
+        999999999999999999999999 = {
+            isa = PBXGroup;
+            children = (
+                444444444444444444444444,
+                666666666666666666666666,
+                555555555555555555555555,
+            );
+            path = HelloWorld;
+            sourceTree = "<group>";
+        };
+        AAAAAAAAAAAAAAAAAAAAAAAA = {
+            isa = PBXGroup;
+            children = (
+                333333333333333333333333,
+            );
+            name = Products;
+            sourceTree = "<group>";
+        };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+        BBBBBBBBBBBBBBBBBBBBBBBB = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = BEBEBEBEBEBEBEBEBEBEBEBE;
+            buildPhases = (
+                EEEEEEEEEEEEEEEEEEEEEEEE,
+                DDDDDDDDDDDDDDDDDDDDDDDD,
+                777777777777777777777777,
+            );
+            buildRules = (
+            );
+            dependencies = (
+            );
+            name = HelloWorld;
+            productName = HelloWorld;
+            productReference = 333333333333333333333333;
+            productType = "com.apple.product-type.application";
+        };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+        CCCCCCCCCCCCCCCCCCCCCCCC = {
+            isa = PBXProject;
+            attributes = {
+                BuildIndependentTargetsInParallel = 1;
+                LastUpgradeCheck = 1500;
+            };
+            buildConfigurationList = CDCDCDCDCDCDCDCDCDCDCDCD;
+            compatibilityVersion = "Xcode 14.0";
+            developmentRegion = en;
+            knownRegions = (
+                en,
+                Base,
+            );
+            mainGroup = 888888888888888888888888;
+            productRefGroup = AAAAAAAAAAAAAAAAAAAAAAAA;
+            projectDirPath = "";
+            projectRoot = "";
+            targets = (
+                BBBBBBBBBBBBBBBBBBBBBBBB,
+            );
+        };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+        DDDDDDDDDDDDDDDDDDDDDDDD = {
+            isa = PBXResourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                222222222222222222222222,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+        EEEEEEEEEEEEEEEEEEEEEEEE = {
+            isa = PBXSourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                111111111111111111111111,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+        ABABABABABABABABABABABAB = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                CLANG_ENABLE_MODULES = YES;
+                CLANG_ENABLE_OBJC_ARC = YES;
+                CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+                GCC_C_LANGUAGE_STANDARD = gnu11;
+                GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+                SDKROOT = iphoneos;
+                SWIFT_VERSION = 5.0;
+            };
+            name = Debug;
+        };
+        ACACACACACACACACACACACAC = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                CLANG_ENABLE_MODULES = YES;
+                CLANG_ENABLE_OBJC_ARC = YES;
+                CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+                GCC_C_LANGUAGE_STANDARD = gnu11;
+                GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+                SDKROOT = iphoneos;
+                SWIFT_VERSION = 5.0;
+            };
+            name = Release;
+        };
+        FDFDFDFDFDFDFDFDFDFDFDFD = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                CODE_SIGNING_ALLOWED = NO;
+                CODE_SIGNING_REQUIRED = NO;
+                CODE_SIGN_IDENTITY = "";
+                DEVELOPMENT_TEAM = "";
+                ENABLE_PREVIEWS = YES;
+                INFOPLIST_FILE = HelloWorld/Info.plist;
+                IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+                PRODUCT_BUNDLE_IDENTIFIER = io.appcircle.testautomation;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SDKROOT = iphoneos;
+                SWIFT_OPTIMIZATION_LEVEL = -Onone;
+                SWIFT_VERSION = 5.0;
+                TARGETED_DEVICE_FAMILY = "1,2";
+            };
+            name = Debug;
+        };
+        FEFEFEFEFEFEFEFEFEFEFEFE = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                CODE_SIGNING_ALLOWED = NO;
+                CODE_SIGNING_REQUIRED = NO;
+                CODE_SIGN_IDENTITY = "";
+                DEVELOPMENT_TEAM = "";
+                INFOPLIST_FILE = HelloWorld/Info.plist;
+                IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+                PRODUCT_BUNDLE_IDENTIFIER = io.appcircle.testautomation;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SDKROOT = iphoneos;
+                SWIFT_VERSION = 5.0;
+                TARGETED_DEVICE_FAMILY = "1,2";
+            };
+            name = Release;
+        };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+        BEBEBEBEBEBEBEBEBEBEBEBE = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                FDFDFDFDFDFDFDFDFDFDFDFD,
+                FEFEFEFEFEFEFEFEFEFEFEFE,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        CDCDCDCDCDCDCDCDCDCDCDCD = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                ABABABABABABABABABABABAB,
+                ACACACACACACACACACACACAC,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+/* End XCConfigurationList section */
+    };
+    rootObject = CCCCCCCCCCCCCCCCCCCCCCCC;
+}
